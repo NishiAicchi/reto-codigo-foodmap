@@ -3,9 +3,12 @@ $(document).ready(function() {
   $searchBtn = $('#search-btn');
   $searchResult = $('#search-result');
 
+  // ocultamos a galeria de imagenes
+  $searchResult.hide();
+
   // que aparezcan las imagenes al hacer click en el input
   $searchBar.on('click', function() {
-    $searchResult.removeClass('hide');
+    $searchResult.toggle('swing');
   });
 
   
