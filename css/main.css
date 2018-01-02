@@ -5,25 +5,25 @@
 }
 body {
   background-color: 
-  #2b2b2b;
+  #ffb309;
   color: #ffff;
   font-family: 'Handlee', cursive;
 }
 
-/* Flexbox */
+/* Flexbox principal*/
 .flexbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  align-items: center;
+  align-items: stretch;
 }
-/**/
+/*alto de pagina*/
 .vh100 {
   height: 100vh;
 }
 
-/**/
+/*ancho de pagina*/
 .vw100 {
   width: 80vw;
 }
@@ -34,3 +34,11 @@ body {
 .padding03 {
   padding: 0.3em;
 }
+/* sección HOME */
+.search-input {
+  height: 8vh;
+}
+.search-btn i{
+  font-size: 20px;
+}
+/* sección GALLERY*/
