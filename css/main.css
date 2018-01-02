@@ -42,3 +42,11 @@ body {
   font-size: 20px;
 }
 /* sección GALLERY*/
+.search-gallery img {
+  border: 2px solid #ffff;
+}
+
+.search-gallery img:hover {
+  background-color: #ffb309;
+  opacity: 10;
+}

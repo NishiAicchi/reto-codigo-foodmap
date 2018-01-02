@@ -37,7 +37,7 @@
             <h3>Un lugar cerca a ti</h3>
             <form action="">
               <div class="input-group mb-3">
-                <input type="text" class="form-control search-input" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <input id="search-input" type="text" class="form-control search-input" placeholder="¿que se te antoja hoy?" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <div class="input-group-btn input-group-append">
                 <button id="search-btn" class="btn btn-outline-secondary search-btn" type="button">
                   <i class="material-icons">search</i>
@@ -51,19 +51,15 @@
   </main>
   <section>
     <div class="container-fluid">
-      <div id="search-result" class="row search-gallery">
-        <div class="col-xs-6">
+      <div id="search-result" class="row search-gallery hide">
+        <div class="col-xs-6 search-gallery">
          <img src="../assets/images/japonesa/ramen.jpg" alt="" class="img-responsive">
+         <div class="mask1"></div>
         </div>
         <div class="col-xs-6">
           <img src="../assets/images/marina/ceviche.png" alt="" class="img-responsive">
+          <div class="mask"></div>
         </div>
-      </div>
-      <div class="row search-gallery">
-        <div class="col-xs-6">
-
-        </div>
-        
       </div>
     </div>
   </section>
